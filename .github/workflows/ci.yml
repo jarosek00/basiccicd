@@ -30,7 +30,7 @@ jobs:
         continue-on-error: true # ten fragment
       
       
-  /docker:
+  docker:
     name: Docker Build and Test
     needs: build
     runs-on: ubuntu-latest
